@@ -23,7 +23,7 @@ import AboutUsV2 from "./pages/pages-menu/about-us-v2";
 import AboutUsV3 from "./pages/pages-menu/about-us-v3";
 import AboutUsV4 from "./pages/pages-menu/about-us-v4";
 import ServiceV1 from "./pages/pages-menu/service-v1";
-import ServiceV2 from "./pages/pages-menu/gallery";
+import ServiceV2 from "./pages/pages-menu/galleryNew";
 import ServiceV3 from "./pages/pages-menu/service-v3";
 import ServiceV4 from "./pages/pages-menu/service-v4";
 import ServiceDetails from "./pages/pages-menu/service-details";

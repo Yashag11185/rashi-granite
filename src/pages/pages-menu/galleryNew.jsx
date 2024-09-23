@@ -4,8 +4,6 @@ import Property from "../../components/home-page/home-5/Property";
 import CallToActions from "../../components/home-page/home-5/CallToActions";
 import Footer from "../../components/home-page/home-5/footer";
 import Service2 from "../../components/services/Service2";
-import Testimonial from "../../components/home-page/home-5/Testimonial";
-import { Link } from "react-router-dom";
 
 import Portfolio from "../../components/home-page/home-9/Portfolio";
 
