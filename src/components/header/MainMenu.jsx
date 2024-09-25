@@ -221,7 +221,7 @@ const MainMenu = () => {
             <a
               className={
                 contactItems.some((elm) => isActive(elm.link))
-                  ? "nav-link dropdown-toggle active-menu"
+                  ? "nav-link active-menu"
                   : "nav-link "
               }
               href="/pages-menu/gallery"

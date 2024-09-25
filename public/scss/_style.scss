@@ -286,9 +286,9 @@ p {
 .border-bottom {
   border-bottom: 1px solid #f1f1f1 !important;
 }
-.zn2 {
-  z-index: 2;
-}
+// .zn2 {
+//   z-index: 2;
+// }
 #contact-form .input-group-meta {
   position: relative;
 }
@@ -8816,11 +8816,11 @@ body .btn-twentySix:hover:after {
   z-index: 1;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
 }
-.footer-style-twelve .line-bg-wrapper,
-.footer-style-twelve .line-bg-wrapper:before {
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
-}
+// .footer-style-twelve .line-bg-wrapper,
+// .footer-style-twelve .line-bg-wrapper:before {
+//   border-left: 1px solid rgba(255, 255, 255, 0.1);
+//   border-right: 1px solid rgba(255, 255, 255, 0.1);
+// }
 .footer-style-twelve .line-bg-wrapper:after {
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 }

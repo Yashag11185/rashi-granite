@@ -2,11 +2,7 @@ export const menuItems = [
   {
     title: "Business",
     items: [
-      { title: "Insurance", link: "/" },
-      { title: "Web Hosting", link: "/home/web-hosting" },
-      { title: "Education", link: "/home/education" },
-      { title: "N.P. Charity", link: "/home/charity" },
-      { title: "Rashi Granite", link: "/home/rashi-granite" },
+      { title: "Rashi Granite", link: "/" },
     ],
   },
   {
@@ -24,7 +20,6 @@ export const menuItems = [
       { title: "Agency Modern", link: "/home/agency-modern" },
       { title: "SEO & Digital Agency", link: "/home/seo-agency" },
       { title: "Design Agency", link: "/home/design-agency" },
-      { title: "Lead Generation", link: "/home/lead-generation" },
     ],
   },
 ];
@@ -35,8 +30,6 @@ export const pagesItems = [
     subItems: [
       { title: "About - Insurance", link: "/pages-menu/about-us-v1" },
       { title: "About - Rashi Granite", link: "/pages-menu/about-us-v2" },
-      { title: "About - Agency", link: "/pages-menu/about-us-v3" },
-      { title: "About - Lead Generation", link: "/pages-menu/about-us-v4" },
     ],
   },
   {
@@ -112,19 +105,8 @@ export const navItems = [
   {
     label: "Home",
     submenuItems: [
-      { title: "Insurance", link: "/" },
-      { title: "Web Hosting", link: "/home/web-hosting" },
-      { title: "Education", link: "/home/education" },
-      { title: "N.P. Charity", link: "/home/charity" },
-      { title: "Rashi Granite", link: "/home/rashi-granite" },
-      { title: "Sass Product", link: "/home/sass-product" },
-      { title: "App Landing", link: "/home/app-landing" },
-      { title: "Crypto", link: "/home/crypto" },
-      { title: "Personal Portfolio", link: "/home/personal-portfolio" },
-      { title: "Agency Modern", link: "/home/agency-modern" },
-      { title: "SEO & Digital Agency", link: "/home/seo" },
-      { title: "Design Agency", link: "/home/design-agency" },
-      { title: "Lead Generation", link: "/home/lead-generation" },
+     
+      { title: "Rashi Granite", link: "/" },
     ],
   },
   { title: "About", link: "/pages-menu/about-us-v1" },

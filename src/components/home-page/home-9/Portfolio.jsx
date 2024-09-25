@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { Gallery, Item } from "react-photoswipe-gallery";
+import { Gallery} from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
-import { Link } from "react-router-dom";
 import items from "../../../data/portfolio";
 
 const Portfolio = () => {
