@@ -5,7 +5,7 @@ import "./styles/index.scss";
 import ScrollToTop from "./components/common/ScrollTop";
 import "bootstrap/dist/js/bootstrap";
 import { Route, Routes } from "react-router-dom";
-// import Insurance from "./pages/home/insurance";
+import Insurance from "./pages/home/insurance";
 import RealEstate from "./pages/home/rashi-granite";
 import AboutUsV2 from "./pages/pages-menu/about-us-v2";
 import ServiceV2 from "./pages/pages-menu/gallery";
@@ -36,37 +36,34 @@ function App() {
   return (
     <div className="main-page-wrapper">
       <Routes>
-        <Route path="/">
-          <Route index element={<AboutUsV2 />} />
-          <Route path="home/rashi-granite" element={<RealEstate />} />
-         
-          
-          <Route path="about-us-v2" element={<AboutUsV2 />} />
-          <Route path="pages-menu/test" element={<>test url</>} />
-          <Route path="pages-menu/gallery" element={<ServiceV2 />} />
-          <Route path="pages-menu/team-v1" element={<TeamV1 />} />
-          <Route path="pages-menu/team-v2" element={<TeamV2 />} />
+        <Route index element={<Insurance />} />
+        <Route path="home/rashi-granite" element={<RealEstate />} />
 
-          <Route path="login" element={<LogIn />} />
-          <Route path="TnC" element={<TnC />} />
-          <Route path="privacy-policy" element={<Privacy />} />
-          <Route path="signup" element={<SignUp />} />
-          <Route path="404" element={<NotFound />} />
+        <Route path="about-us-v2" element={<AboutUsV2 />} />
+        <Route path="test" element={<>test url</>} />
+        <Route path="pages-menu/gallery" element={<ServiceV2 />} />
+        <Route path="pages-menu/team-v1" element={<TeamV1 />} />
+        <Route path="pages-menu/team-v2" element={<TeamV2 />} />
 
-          <Route path="portfolio/portfolio-v1" element={<PortfolioV1 />} />
-          <Route path="portfolio/inventory" element={<PortfolioV2 />} />
-          <Route path="portfolio/portfolio-v3" element={<PortfolioV3 />} />
-          <Route path="portfolio/portfolio-v4" element={<PortfolioV4 />} />
-          <Route path="portfolio/portfolio-v5" element={<PortfolioV5 />} />
-          <Route path="portfolio/portfolio-v6" element={<PortfolioV6 />} />
-          <Route path="portfolio/portfolio-v7" element={<PortfolioV7 />} />
-          <Route path="portfolio/:id" element={<DynamicPortfolioDetails />} />
+        <Route path="login" element={<LogIn />} />
+        <Route path="TnC" element={<TnC />} />
+        <Route path="privacy-policy" element={<Privacy />} />
+        <Route path="signup" element={<SignUp />} />
+        <Route path="404" element={<NotFound />} />
 
-      
-          <Route path="contact/contact-v4" element={<ContactV4 />} />
+        <Route path="portfolio/portfolio-v1" element={<PortfolioV1 />} />
+        <Route path="portfolio/inventory" element={<PortfolioV2 />} />
+        <Route path="portfolio/portfolio-v3" element={<PortfolioV3 />} />
+        <Route path="portfolio/portfolio-v4" element={<PortfolioV4 />} />
+        <Route path="portfolio/portfolio-v5" element={<PortfolioV5 />} />
+        <Route path="portfolio/portfolio-v6" element={<PortfolioV6 />} />
+        <Route path="portfolio/portfolio-v7" element={<PortfolioV7 />} />
+        <Route path="portfolio/:id" element={<DynamicPortfolioDetails />} />
 
-          <Route path="*" element={<NotFound />} />
-        </Route>
+
+        <Route path="contact/contact-v4" element={<ContactV4 />} />
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <ScrollTopBehaviour />
 
