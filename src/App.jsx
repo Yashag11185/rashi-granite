@@ -16,14 +16,14 @@ import TnC from "./pages/TnC";
 import Privacy from "./pages/privacy-policy";
 import SignUp from "./pages/signup";
 import NotFound from "./pages/404";
-import PortfolioV1 from "./pages/portfolio/portfolio-v1";
-import PortfolioV2 from "./pages/portfolio/inventory";
-import PortfolioV4 from "./pages/portfolio/portfolio-v4";
-import PortfolioV5 from "./pages/portfolio/portfolio-v5";
-import PortfolioV3 from "./pages/portfolio/portfolio-v3";
-import PortfolioV6 from "./pages/portfolio/portfolio-v6";
-import PortfolioV7 from "./pages/portfolio/portfolio-v7";
-import DynamicPortfolioDetails from "./pages/portfolio/portfolio-single";
+// import PortfolioV1 from "./pages/portfolio/portfolio-v1";
+// import PortfolioV2 from "./pages/portfolio/inventory";
+// import PortfolioV4 from "./pages/portfolio/portfolio-v4";
+// import PortfolioV5 from "./pages/portfolio/portfolio-v5";
+// import PortfolioV3 from "./pages/portfolio/portfolio-v3";
+// import PortfolioV6 from "./pages/portfolio/portfolio-v6";
+// import PortfolioV7 from "./pages/portfolio/portfolio-v7";
+// import DynamicPortfolioDetails from "./pages/portfolio/portfolio-single";
 import ContactV4 from "./pages/contact/contact-v4";
 import ScrollTopBehaviour from "./components/common/ScrollTopBehavier";
 function App() {
@@ -51,14 +51,14 @@ function App() {
         <Route path="signup" element={<SignUp />} />
         <Route path="404" element={<NotFound />} />
 
-        <Route path="portfolio/portfolio-v1" element={<PortfolioV1 />} />
+        {/* <Route path="portfolio/portfolio-v1" element={<PortfolioV1 />} />
         <Route path="portfolio/inventory" element={<PortfolioV2 />} />
         <Route path="portfolio/portfolio-v3" element={<PortfolioV3 />} />
         <Route path="portfolio/portfolio-v4" element={<PortfolioV4 />} />
         <Route path="portfolio/portfolio-v5" element={<PortfolioV5 />} />
         <Route path="portfolio/portfolio-v6" element={<PortfolioV6 />} />
         <Route path="portfolio/portfolio-v7" element={<PortfolioV7 />} />
-        <Route path="portfolio/:id" element={<DynamicPortfolioDetails />} />
+        <Route path="portfolio/:id" element={<DynamicPortfolioDetails />} /> */}
 
 
         <Route path="contact/contact-v4" element={<ContactV4 />} />
