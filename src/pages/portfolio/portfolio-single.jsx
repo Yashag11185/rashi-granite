@@ -1,16 +1,11 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import Footer from "../../components/home-page/home-5/footer";
-import SocialShare from "../../components/portfolio/portfolio-details/SocialShare";
 import ProjectDetails from "../../components/portfolio/portfolio-details/ProjectDetails";
 import ProjectSlide from "../../components/portfolio/portfolio-details/ProjectSlide";
-import CallToAction from "../../components/portfolio/CallToAction";
-import PortfolioGallery from "../../components/portfolio/portfolio-details/PortfolioGallery";
 import Modal from "../../components/modal";
 import { useEffect, useState } from "react";
-import items from "../../data/portfolio"
 import portfolioData from "../../data/portfolio";
-import PortfolioDetailsTitle from "../../components/portfolio/portfolio-details/PortfolioDetailsTitle";
 import { useParams } from "react-router-dom";
 
 const DynamicPortfolioDetails = () => {
@@ -307,7 +302,7 @@ const DynamicPortfolioDetails = () => {
               {/* /.title-style-twelve */}
 
               <p data-aos="fade-up">
-                Discover a wide range of natural stones, each offering unique textures, colors, and durability. Whether you're looking for granite, marble, or other stones, our collection ensures that you find the perfect match for your project.
+                Discover a wide range of natural stones, each offering unique textures, colors, and durability. Whether you are looking for granite, marble, or other stones, our collection ensures that you find the perfect match for your project.
               </p>
               <p data-aos="fade-up">
                 Navigate easily to view the previous or next stone in our collection to explore all available options.
