@@ -5,7 +5,7 @@ import "./styles/index.scss";
 import ScrollToTop from "./components/common/ScrollTop";
 import "bootstrap/dist/js/bootstrap";
 import { Route, Routes } from "react-router-dom";
-import Insurance from "./pages/home/insurance";
+// import Insurance from "./pages/home/insurance";
 import RealEstate from "./pages/home/rashi-granite";
 import AboutUsV2 from "./pages/pages-menu/about-us-v2";
 import ServiceV2 from "./pages/pages-menu/gallery";
@@ -37,11 +37,11 @@ function App() {
     <div className="main-page-wrapper">
       <Routes>
         <Route path="/">
-          <Route index element={<Insurance />} />
+          <Route index element={<AboutUsV2 />} />
           <Route path="home/rashi-granite" element={<RealEstate />} />
          
           
-          <Route path="pages-menu/about-us-v2" element={<AboutUsV2 />} />
+          <Route path="about-us-v2" element={<AboutUsV2 />} />
           <Route path="pages-menu/test" element={<>test url</>} />
           <Route path="pages-menu/gallery" element={<ServiceV2 />} />
           <Route path="pages-menu/team-v1" element={<TeamV1 />} />
