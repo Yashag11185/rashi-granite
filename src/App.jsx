@@ -42,6 +42,7 @@ function App() {
          
           
           <Route path="pages-menu/about-us-v2" element={<AboutUsV2 />} />
+          <Route path="pages-menu/test" element={<>test url</>} />
           <Route path="pages-menu/gallery" element={<ServiceV2 />} />
           <Route path="pages-menu/team-v1" element={<TeamV1 />} />
           <Route path="pages-menu/team-v2" element={<TeamV2 />} />
