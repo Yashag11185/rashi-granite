@@ -1,5 +1,5 @@
 // import Aos from "aos";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import "aos/dist/aos.css";
 import "./styles/index.scss";
 // import ScrollToTop from "./components/common/ScrollTop";
@@ -64,9 +64,6 @@ function App() {
 
         <Route path="*" element={<NotFound />} />
       </Routes>
-      {/* <ScrollTopBehaviour /> */}
-
-      {/* <ScrollToTop /> */}
   );
 }
 
